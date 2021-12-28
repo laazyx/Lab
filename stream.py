@@ -35,6 +35,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
 add_selectbox = st.sidebar.selectbox(
     'select the model for classification',
     ('Welcome', 'CNN')
+#comment
 )
 
 if add_selectbox == 'Welcome':
